@@ -4,7 +4,7 @@
                         <a class="blog-nav-item active" href="#">Home Page</a>
                         <a class="blog-nav-item" href="#">Projects</a>
                         <a class="blog-nav-item" href="#">About</a>
-                        <a class="blog-nav-item" href="#">Contacts Us</a>
+                        <a class="blog-nav-item" href="contact.php">Contacts Us</a>
                 </nav>
         </div>
 </div>

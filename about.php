@@ -17,7 +17,7 @@ Template Name: About
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Blog Template for Bootstrap</title>
+  <title>Shrouk's Task</title>
   <!-- Bootstrap core CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->

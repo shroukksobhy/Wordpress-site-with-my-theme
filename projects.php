@@ -3,8 +3,6 @@
 Template Name: Projects
 */
 ?>
-
-
 <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +15,7 @@ Template Name: Projects
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Blog Template for Bootstrap</title>
+  <title>Shrouk's Task</title>
   <!-- Bootstrap core CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
@@ -37,12 +35,8 @@ Template Name: Projects
 
       <?php if (have_posts()) : while (have_posts()) : the_post();
 
-       //   get_template_part('content', get_post_format());
+         // get_template_part('content', get_post_format());
             wp_list_categories();
-
-          ?>
-         
-      <?php
 
         endwhile;
       endif;
@@ -52,11 +46,8 @@ Template Name: Projects
 
 
     </div><!-- /.blog-main -->
-
-
     <?php get_sidebar() ?>
-
-
+      
 
   </div><!-- /.row -->
   <?php get_footer(); ?>
